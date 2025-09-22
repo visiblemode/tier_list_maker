@@ -78,7 +78,7 @@ const allEvolutions = [
     ["SNEASEL", "WEAVILE"],
     ["PAWMI", "PAWMO", "PAWMOT"],
     ["RUFFLET", "BRAVIARY"],
-    ["FARFETCHD"],
+    ["FARFETCH'D"],
     ["CHANSEY", "HAPPINY", "BLISSEY"],
     ["TREECKO", "GROVYLE","SCEPTILE"],
     ["TORCHIC", "COMBUSKEN", "BLAZIKEN"],

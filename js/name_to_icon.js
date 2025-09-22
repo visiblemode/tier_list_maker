@@ -172,7 +172,7 @@ const name_to_icon = {
 	"HAPPINY": "440",
 	"CHANSEY": "113",
 	"BLISSEY": "242",
-	"FARFETCHD": "083",
+	"FARFETCH'D": "083",
     "TREECKO": "252",
     "GROVYLE": "253",
     "SCEPTILE": "254",
