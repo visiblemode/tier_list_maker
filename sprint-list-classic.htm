@@ -1,0 +1,78 @@
+<style>
+  /* html {
+    filter: grayscale(50%);
+  } */
+  body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+  }
+  /* div.blackcell {
+    background-image: url('whiff_list.png');
+    background-repeat: repeat;
+  } */
+  .white-text {
+    color: white; /* Class for setting text color to white */
+  }
+  .header-image-div, .footer-image-div {
+    position: relative;
+    z-index: 1;
+  }
+  .header-image-div::before {
+      filter: grayscale(100%);
+      content: '';
+      /* background-image: url('https://www.serebii.net/pokemonsleep/halloween.jpg'); */
+      background-size: cover;
+      background-position: center;
+      opacity: 0.6; /* 60% opacity */
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      position: absolute;
+      z-index: -1;
+  }
+</style>
+
+<center>
+  <span class="white-text">Change header name:</span><br>
+  <input type="text" id="headerInput" class="input-field" size="100" placeholder="Enter header text" 
+    value="Mathcord Sleep Sprint List | October 2025"><p></p>
+  <span class="white-text">Paste data here:</span><br>
+  <textarea id="inputTextArea" rows="10" cols="80"></textarea><p></p>
+  <div id="tierList" class="tier-list-container"></div>
+</center>
+
+<script src="js/name_to_icon.js"></script>
+<script src="js/constants.js"></script>
+<script src="js/parse-data-sprint-list.js"></script>
+<script src="js/create-tier-list.js"></script>
+<script src="js/dec-list.js"></script>
+<script src="js/evolutions.js"></script>
+<script src="js/sleep-types.js"></script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const width = 800;
+    const cells = 8;
+    const footerText = ''
+    let headerText = document.getElementById('headerInput').value;
+    document.getElementById('inputTextArea').innerText = defaultData;
+
+    // Set up default data, pulled from js/dec-list.js
+    let tiersArray = parseData(defaultData); // Use let to allow updates
+    document.getElementById('tierList').innerHTML = createTierList(sprint_colors, tiersArray, width, cells, headerText, footerText);
+
+    // Event listener for header text changes
+    document.getElementById('headerInput').addEventListener('input', function() {
+      headerText = this.value; // Update the headerText variable
+      document.getElementById('tierList').innerHTML = createTierList(sprint_colors, tiersArray, width, cells, headerText, footerText);
+    });
+
+    // Event listener for pasted data changes
+    document.getElementById('inputTextArea').addEventListener('input', function() {
+      tiersArray = parseData(this.value); // Update the tiersArray variable
+      document.getElementById('tierList').innerHTML = createTierList(sprint_colors, tiersArray, width, cells, headerText, footerText);
+    });
+  });
+</script>

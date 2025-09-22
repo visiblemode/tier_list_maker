@@ -1,0 +1,14 @@
+Hi Momo.
+
+1. index.htm can be loaded right now to render new tier-lists immediately, 
+   following the format you posted for the level 30 tier lists.
+2. If you want to save these as actual images, use `https://html2canvas.hertzen.com/`
+   (this is what TierMaker uses to create images out of the tier list maker)
+3. If you want to update the format of the data going in, take a look at `js/parse-data.js`.
+   Basically, update that function to massage your data into the
+   expected data format (`tiers` argument in `js/create-tier-list.js`)
+
+Lemme know if you've questions or want help modifying any of this!
+This is the basic tier list, but if you wanted to do stuff like add in the "total score" below each mon,
+Or like their ingredient icons, etc, this code should be extensible enough to do just that. 
+Lmk if you'd prefer for me to make those changes for you.

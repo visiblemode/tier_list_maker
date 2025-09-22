@@ -1,0 +1,46 @@
+<style>
+  body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .white-text {
+    color: white; /* Class for setting text color to white */
+  }
+</style>
+
+<center>
+  <span class="white-text">Change header name:</span><br>
+  <input type="text" id="headerInput" class="input-field" size="100" placeholder="Enter header text" value="Curry - Level 30 (18 Dec 2023) by McMomo"><p></p>
+  <span class="white-text">Paste data here:</span><br>
+  <textarea id="inputTextArea" rows="10" cols="80"></textarea><p></p>
+  <div id="tierList" class="tier-list-container"></div>
+</center>
+
+<script src="js/name_to_icon.js"></script>
+<script src="js/constants.js"></script>
+<script src="js/parse-data.js"></script>
+<script src="js/create-tier-list.js"></script>
+<script src="js/curry.js"></script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Set up default data, pulled from js/curry.js
+    let tiersArray = parseData(defaultData); // Use let to allow updates
+    let headerText = document.getElementById('headerInput').value;
+    document.getElementById('tierList').innerHTML = createTierList(tier_colors, tiersArray, 900, 10, headerText);
+    document.getElementById('inputTextArea').innerText = defaultData;
+
+    // Event listener for header text changes
+    document.getElementById('headerInput').addEventListener('input', function() {
+      headerText = this.value; // Update the headerText variable
+      document.getElementById('tierList').innerHTML = createTierList(tier_colors, tiersArray, 900, 10, headerText);
+    });
+
+    // Event listener for pasted data changes
+    document.getElementById('inputTextArea').addEventListener('input', function() {
+      const inputArray = this.value.split(',').map(item => item.trim()); // Massage text from string format into array format
+      tiersArray = parseData(inputArray); // Update the tiersArray variable
+      document.getElementById('tierList').innerHTML = createTierList(tier_colors, tiersArray, 900, 10, headerText);
+    });
+  });
+</script>

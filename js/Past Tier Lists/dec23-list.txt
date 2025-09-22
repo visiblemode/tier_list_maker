@@ -1,0 +1,56 @@
+const defaultData =
+    `Cyndaquil
+
+    Totodile
+    
+    Eevee
+    
+    Charmander
+    
+    Larvitar
+    
+    Spheal
+    
+    Squirtle
+    
+    Diglett
+    
+    Gastly
+    
+    Pikachu
+    
+    Bulbasaur
+    
+    Geodude
+    
+    Absol
+    
+    Pinsir
+    
+    Houndour
+    
+    Chikorita
+    
+    Bellsprout
+    
+    Jigglypuff
+    
+    Slakoth
+    
+    Doduo
+    
+    Ditto
+    
+    Caterpie
+    
+    Clefairy
+    
+    Growlithe
+    
+    Rattata
+    
+    Slowpoke
+    
+    Onix
+    
+    Swablu`
