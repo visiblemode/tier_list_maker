@@ -186,4 +186,6 @@ const sleepTypes = {
     "TOXTRICITY_LOW_KEY": "DOZING", 
     "NATU": "SNOOZING", 
     "XATU": "SNOOZING", 
+    "PUMPKABOO": "DOZING",
+    "GOURGEIST": "DOZING",
 }

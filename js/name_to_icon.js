@@ -188,5 +188,7 @@ const name_to_icon = {
     "TOXTRICITY_AMPED": "849-toxtricityampedform",
     "TOXTRICITY_LOW_KEY": "849-toxtricitylowkeyform", 
     "NATU": "177", 
-    "XATU": "178", 
+    "XATU": "178",
+	"PUMPKABOO": "710",
+    "GOURGEIST": "711",
 }

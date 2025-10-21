@@ -86,5 +86,6 @@ const allEvolutions = [
     ["PLUSLE"],
     ["MINUN"],
     ["TOXEL", "TOXTRICITY_AMPED", "TOXTRICITY_LOW_KEY"],
-    ["NATU", "XATU"]
+    ["NATU", "XATU"],
+    ["PUMPKABOO", "GOURGEIST"],
 ]
