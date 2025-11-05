@@ -191,4 +191,12 @@ const name_to_icon = {
     "XATU": "178",
 	"PUMPKABOO": "710",
     "GOURGEIST": "711",
+    "BAGON": "371",
+    "SHELGON": "372",
+    "SALAMENCE": "373",
+    "TRAPINCH": "328",
+    "VIBRAVA": "329",
+    "FLYGON": "330",
+    "DWEBBLE": "557",
+    "CRUSTLE": "558"
 }

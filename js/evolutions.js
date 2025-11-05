@@ -88,4 +88,7 @@ const allEvolutions = [
     ["TOXEL", "TOXTRICITY_AMPED", "TOXTRICITY_LOW_KEY"],
     ["NATU", "XATU"],
     ["PUMPKABOO", "GOURGEIST"],
+    ["BAGON", "SHELGON", "SALAMENCE"],
+    ["TRAPINCH", "VIBRAVA", "FLYGON"],
+    ["DWEBBLE", "CRUSTLE"]
 ]

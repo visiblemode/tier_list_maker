@@ -188,4 +188,12 @@ const sleepTypes = {
     "XATU": "SNOOZING", 
     "PUMPKABOO": "DOZING",
     "GOURGEIST": "DOZING",
+    "BAGON": "DOZING",
+    "SHELGON": "DOZING",
+    "SALAMENCE": "DOZING",
+    "TRAPINCH": "SLUMBERING",
+    "VIBRAVA": "SLUMBERING",
+    "FLYGON": "SLUMBERING",
+    "DWEBBLE": "DOZING",
+    "CRUSTLE": "DOZING"
 }
