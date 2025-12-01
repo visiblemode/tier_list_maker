@@ -195,5 +195,6 @@ const sleepTypes = {
     "VIBRAVA": "SLUMBERING",
     "FLYGON": "SLUMBERING",
     "DWEBBLE": "DOZING",
-    "CRUSTLE": "DOZING"
+    "CRUSTLE": "DOZING",
+	"SPIRITOMB": "DOZING"
 }
