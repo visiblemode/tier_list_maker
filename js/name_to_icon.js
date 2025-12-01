@@ -198,5 +198,6 @@ const name_to_icon = {
     "VIBRAVA": "329",
     "FLYGON": "330",
     "DWEBBLE": "557",
-    "CRUSTLE": "558"
+    "CRUSTLE": "558",
+	"SPIRITOMB": "442"
 }
