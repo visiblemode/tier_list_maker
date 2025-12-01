@@ -90,5 +90,6 @@ const allEvolutions = [
     ["PUMPKABOO", "GOURGEIST"],
     ["BAGON", "SHELGON", "SALAMENCE"],
     ["TRAPINCH", "VIBRAVA", "FLYGON"],
-    ["DWEBBLE", "CRUSTLE"]
+    ["DWEBBLE", "CRUSTLE"],
+	["SPIRITOMB"]
 ]
