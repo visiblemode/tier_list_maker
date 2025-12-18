@@ -200,4 +200,8 @@ const name_to_icon = {
     "DWEBBLE": "557",
     "CRUSTLE": "558",
 	"SPIRITOMB": "442"
+	"TOGEDEMARU": "777",
+	"CETODDLE": "974",
+	"CETITAN": "975"
 }
+
