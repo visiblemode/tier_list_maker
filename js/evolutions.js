@@ -91,5 +91,8 @@ const allEvolutions = [
     ["BAGON", "SHELGON", "SALAMENCE"],
     ["TRAPINCH", "VIBRAVA", "FLYGON"],
     ["DWEBBLE", "CRUSTLE"],
-	["SPIRITOMB"]
+	["SPIRITOMB"],
+	["TOGEDEMARU"],
+	["CETODDLE", "CETITAN"]
 ]
+
