@@ -199,9 +199,10 @@ const name_to_icon = {
     "FLYGON": "330",
     "DWEBBLE": "557",
     "CRUSTLE": "558",
-	"SPIRITOMB": "442"
+	"SPIRITOMB": "442",
 	"TOGEDEMARU": "777",
 	"CETODDLE": "974",
 	"CETITAN": "975"
 }
+
 
