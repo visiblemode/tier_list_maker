@@ -66,8 +66,8 @@ const sleepTypes = {
     "MEGANIUM": "DOZING",
     "MEOWTH": "SNOOZING",
     "METAPOD": "DOZING",
-    "MIME JR.": "SLUMBERING",
-    "MR. MIME": "SNOOZING",
+    "MIMEJR.": "SLUMBERING",
+    "MR.MIME": "SNOOZING",
     "ONIX": "SLUMBERING",
     "PERSIAN": "SNOOZING",
     "PICHU": "SLUMBERING",
@@ -204,5 +204,6 @@ const sleepTypes = {
 	"MURKROW": "SLUMBERING",
 	"MAWILE": "303"
 }
+
 
 
