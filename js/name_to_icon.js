@@ -202,11 +202,12 @@ const name_to_icon = {
 	"SPIRITOMB": "442",
 	"TOGEDEMARU": "777",
 	"CETODDLE": "974",
-	"CETITAN": "975"
+	"CETITAN": "975",
 	"MUNNA": "517",
 	"MURKROW": "198",
     "MAWILE": "303"
 }
+
 
 
 
