@@ -67,8 +67,8 @@ const name_to_icon = {
 	"MEGANIUM": "154",
 	"MEOWTH": "052",
 	"METAPOD": "011",
-	"MIME JR.": "439",
-	"MR. MIME": "122",
+	"MIMEJR.": "439",
+	"MR.MIME": "122",
 	"ONIX": "095",
 	"PERSIAN": "053",
 	"PICHU": "172",
@@ -207,6 +207,7 @@ const name_to_icon = {
 	"MURKROW": "198",
 	"MAWILE": "303"
 }
+
 
 
 
