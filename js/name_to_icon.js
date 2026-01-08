@@ -205,8 +205,9 @@ const name_to_icon = {
 	"CETITAN": "975"
 	"MUNNA": "517",
 	"MURKROW": "198",
-	"MAWILE": "303"
+    "MAWILE": "303"
 }
+
 
 
 
