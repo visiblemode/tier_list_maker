@@ -197,16 +197,17 @@ const name_to_icon = {
     "TRAPINCH": "328",
     "VIBRAVA": "329",
     "FLYGON": "330",
-    "DWEBBLE": "557",
-    "CRUSTLE": "558",
+	"DWEBBLE": "557",
+	"CRUSTLE": "558",
 	"SPIRITOMB": "442",
 	"TOGEDEMARU": "777",
 	"CETODDLE": "974",
 	"CETITAN": "975",
 	"MUNNA": "517",
 	"MURKROW": "198",
-    "MAWILE": "303"
+	"MAWILE": "303"
 }
+
 
 
 
