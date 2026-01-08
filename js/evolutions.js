@@ -96,8 +96,9 @@ const allEvolutions = [
 	["CETODDLE", "CETITAN"],
 	["MUNNA"],
 	["MURKROW"],
-	["MAWILE"]
+    ["MAWILE"]
 ]
+
 
 
 
