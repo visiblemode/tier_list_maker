@@ -45,7 +45,7 @@ const allEvolutions = [
     ["MAGNEMITE", "MAGNETON", "MAGNEZONE"], 
     ["MANKEY", "PRIMEAPE"], 
     ["MEOWTH", "PERSIAN"], 
-    ["MR. MIME", "MIME JR."], 
+    ["MR.MIME", "MIMEJR."], 
     ["ONIX", "STEELIX"], 
     ["PIKACHU", "PICHU", "RAICHU"], 
     ["PINSIR"], 
@@ -98,6 +98,7 @@ const allEvolutions = [
 	["MURKROW"],
 	["MAWILE"]
 ]
+
 
 
 
