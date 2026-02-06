@@ -206,8 +206,11 @@ const name_to_icon = {
 	"MUNNA": "517",
 	"MURKROW": "198",
 	"MAWILE": "303",
-	"SHUCKLE": "213"
+	"SHUCKLE": "213",
+	"CUTIEFLY": "742",
+	"RIBOMBEE": "743"
 }
+
 
 
 
