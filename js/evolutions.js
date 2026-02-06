@@ -97,8 +97,10 @@ const allEvolutions = [
 	["MUNNA"],
 	["MURKROW"],
 	["MAWILE"],
-	["SHUCKLE"]
+	["SHUCKLE"],
+	["CUTIEFLY", "RIBOMBEE"]
 ]
+
 
 
 
