@@ -203,8 +203,11 @@ const sleepTypes = {
 	"MUNNA": "SNOOZING",
 	"MURKROW": "SLUMBERING",
 	"MAWILE": "DOZING",
-	"SHUCKLE": "DOZING"
+	"SHUCKLE": "DOZING",
+	"CUTIEFLY": "SNOOZING",
+	"RIBOMBEE": "SNOOZING"
 }
+
 
 
 
