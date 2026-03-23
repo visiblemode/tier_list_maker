@@ -208,7 +208,9 @@ const name_to_icon = {
 	"MAWILE": "303",
 	"SHUCKLE": "213",
 	"CUTIEFLY": "742",
-	"RIBOMBEE": "743"
+	"RIBOMBEE": "743",
+	"NOIBAT": "714",
+	"NOIVERN": "715",
 }
 
 
