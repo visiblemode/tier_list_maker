@@ -205,7 +205,9 @@ const sleepTypes = {
 	"MAWILE": "DOZING",
 	"SHUCKLE": "DOZING",
 	"CUTIEFLY": "SNOOZING",
-	"RIBOMBEE": "SNOOZING"
+	"RIBOMBEE": "SNOOZING",
+	"NOIBAT": "DOZING",
+	"NOIVERN": "DOZING",
 }
 
 
