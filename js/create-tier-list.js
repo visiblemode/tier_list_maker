@@ -37,7 +37,7 @@ function createTierList(colors, tiers, width, numCells, tierHeader, tierFooter, 
           <div class="blackcell" style="display: table-cell; border: 1px solid white; box-sizing: border-box; background-color: black; display: flex; flex-wrap: wrap;">`;
   
       // Add in Legendaries and Mythicals
-      html += `<img src="legendary-mythicals-icon.png" style="flex: 1 0 ${100 / numCells}%; max-width: ${cellWidth}px;">`;
+      html += `<img src="legendary-mythicals-icon2.png" style="flex: 1 0 ${100 / numCells}%; max-width: ${cellWidth}px;">`;
 
       images.forEach(imageName => {
         html += `<img src="${imageUrl(imageName)}" style="flex: 1 0 ${100 / numCells}%; max-width: ${cellWidth}px;">`;
