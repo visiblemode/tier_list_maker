@@ -99,7 +99,8 @@ const allEvolutions = [
 	["MAWILE"],
 	["SHUCKLE"],
 	["CUTIEFLY", "RIBOMBEE"],
-	["NOIBAT", "NOIVERN"]
+	["NOIBAT", "NOIVERN"],
+	["SANDSHREW", "SANDSLASH"]
 ]
 
 
