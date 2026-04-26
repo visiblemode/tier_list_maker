@@ -211,6 +211,8 @@ const name_to_icon = {
 	"RIBOMBEE": "743",
 	"NOIBAT": "714",
 	"NOIVERN": "715",
+	"SANDSHREW": "27",
+	"SANDSLASH": "28",
 }
 
 
