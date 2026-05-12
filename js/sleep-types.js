@@ -210,6 +210,8 @@ const sleepTypes = {
 	"SANDSLASH": "SLUMBERING",
 	"NOIBAT": "DOZING",
 	"NOIVERN": "DOZING",
+	"TYRUNT": "SLUMBERING",
+	"TYRANTRUM": "SLUMBERING"
 }
 
 

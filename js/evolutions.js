@@ -100,7 +100,8 @@ const allEvolutions = [
 	["SHUCKLE"],
 	["CUTIEFLY", "RIBOMBEE"],
 	["NOIBAT", "NOIVERN"],
-	["SANDSHREW", "SANDSLASH"]
+	["SANDSHREW", "SANDSLASH"],
+	["TYRUNT", "TYRANTRUM"]
 ]
 
 

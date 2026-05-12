@@ -213,6 +213,8 @@ const name_to_icon = {
 	"NOIVERN": "715",
 	"SANDSHREW": "027",
 	"SANDSLASH": "028",
+	"TYRUNT": "696",
+	"TYRANTRUM": "697"
 }
 
 
