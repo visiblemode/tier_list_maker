@@ -9,8 +9,6 @@ This tool generates the monthly sprint tier list image. You paste in a list of P
 ## How the data works
 
 There's a Google Sheet that the webapp reads from every time it loads. 
-It current lives at: https://docs.google.com/spreadsheets/d/1PncN13uA5ot_jLmFE7yORaHPh_zlIxAcClKkWC-N-6M
-Please message someone with access, for access.
 
 It has two tabs:
 
