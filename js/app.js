@@ -3,7 +3,7 @@
 // =============================================================================
 
 // Colors of the tier list, in order they will be used
-const sprint_colors = ['#F9F282', '#9BDAE4', '#8ABAE2', '#FAF8F9'];
+const colors = ['#F9F282', '#9BDAE4', '#8ABAE2', '#FAF8F9'];
 
 // Google Sheet Data Source
 const SHEET_BASE = "https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vR7NTU850u2PQcbEjH36NrDDrlLXvHdM25x0-GRsOkZDKaMBrhWIq-Npxo8mxKXBVZI8z1QSu0do9Uo/pub?output=csv";
