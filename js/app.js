@@ -159,7 +159,7 @@ function createTierList(tiers, width, numCells, tierHeader, tierFooter) {
           <div style="display: table-cell; background-color: ${colors[index]}; text-align: center; vertical-align: middle; width: ${cellWidth-2}px; height: ${cellWidth}px;">${tierLabel}</div>
           <div class="blackcell" style="display: table-cell; border: 1px solid white; box-sizing: border-box; background-color: black; display: flex; flex-wrap: wrap;">`;
 
-        html += `<img src="legendary-mythicals-icon2.png" style="flex: 1 0 ${100 / numCells}%; max-width: ${cellWidth}px;">`;
+        html += `<img src="legendary-mythicals-icon.png" style="flex: 1 0 ${100 / numCells}%; max-width: ${cellWidth}px;">`;
 
         images.forEach(imageName => {
             html += `<img src="${imageUrl(imageName)}" style="flex: 1 0 ${100 / numCells}%; max-width: ${cellWidth}px;">`;
